@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desired Taste</title>
+
+    <!-- CSS File -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+<header class="header">
+
+    <div class="logo">
+        <img src="images/logo.png" alt="Desired Taste Logo">
+    </div>
+
+    <h1 class="restaurant-name">
+    <span>DESIRED TASTE</span>
+</h1>
+
+<button class="menu-btn">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</button>
+
+</header>
+ 
+ <!-- ===========================
+     MOBILE NAVIGATION
+=========================== -->
+
+<nav class="mobile-nav">
+
+    <a href="#home">Home</a>
+
+    <a href="#signature-dishes">Signature Dishes</a>
+
+    <a href="#menu">Menu</a>
+
+    <a href="#testimonials">Testimonials</a>
+
+    <a href="#contact">Contact</a>
+
+</nav>
+ 
+ <section class="hero" id="home">
+
+    <div class="hero-slider">
+
+        <div class="hero-slide active">
+
+            <img src="images/hero1.jpg" alt="Desired Taste Restaurant">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <h2>WELCOME TO DESIRED TASTE</h2>
+
+                <p>Where Every Meal Becomes a Memory.</p>
+
+            </div>
+
+        </div>
+
+        <div class="hero-slide">
+
+            <img src="images/hero2.jpeg" alt="Restaurant Food">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <h2>TREATED LIKE KINGS & QUEENS</h2>
+
+                <p>Exceptional Hospitality Awaits You.</p>
+
+            </div>
+
+        </div>
+
+        <div class="hero-slide">
+
+            <img src="images/hero3.jpg" alt="Luxury Dining">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <h2>ENJOY TASTEFUL MEALS</h2>
+
+                <p>Crafted Fresh. Served With Love.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="why-choose">
+
+    <div class="section-title">
+
+        <span class="title-line"></span>
+
+        <h2>WHY CHOOSE US</h2>
+
+        <span class="title-line"></span>
+
+    </div>
+
+    <div class="why-content">
+
+        <p>
+            At <strong>Desired Taste</strong>, every meal is prepared with care, served with warmth, and crafted to create memorable moments. Fresh ingredients, exceptional hospitality, and a welcoming atmosphere come together to make every visit truly special.
+        </p>
+
+    </div>
+    
+    <button class="reserve-btn">
+
+    <i class="fa-regular fa-calendar-days"></i>
+
+    Reserve Your Table
+
+</button>
+
+<div class="reservation-modal">
+
+    <div class="reservation-card">
+
+        <button class="close-btn" type="button">&times;</button>
+
+        <h2>Reserve Your Table</h2>
+
+        <p>Complete the form below and we'll prepare your table.</p>
+
+        <form class="reservation-form">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" min="1" required>
+
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Reservation Time</label>
+            <input type="time" id="time" required>
+
+            <label for="request">Special Request</label>
+            <textarea id="request" rows="4" placeholder="Optional"></textarea>
+
+            <button type="submit" class="submit-btn">
+
+                Reserve Now
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<div class="success-message">
+
+    <div class="success-card">
+
+        <div class="success-icon">
+
+            ✓
+
+        </div>
+
+        <h2>Reservation Request Received</h2>
+
+        <p>
+
+            Thank you for choosing <strong>Desired Taste</strong>.
+
+            We'll contact you shortly to confirm your reservation.
+
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+     SIGNATURE DISHES
+=========================== -->
+
+<section class="signature-section" id="signature-dishes">
+
+    <div class="signature-title">
+
+        <span class="signature-line"></span>
+
+        <h2>Signature Dishes</h2>
+
+        <span class="signature-line"></span>
+
+    </div>
+
+    <p class="signature-description">
+        Discover a selection of beautifully prepared meals crafted to delight every guest.
+    </p>
+
+    <div class="dish">
+
+        <div class="dish-image">
+            <img src="images/food1.jpg" alt="Signature Dish 1">
+        </div>
+
+        <p>
+            Enjoy every bite of our carefully prepared meals, made with fresh ingredients and unforgettable flavour.
+        </p>
+
+    </div>
+
+    <div class="dish">
+
+        <div class="dish-image">
+            <img src="images/food2.jpg" alt="Signature Dish 2">
+        </div>
+
+        <p>
+            Every plate is thoughtfully created to deliver rich flavours and memorable dining experiences.
+        </p>
+
+    </div>
+
+    <div class="dish">
+
+        <div class="dish-image">
+            <img src="images/food3.jpg" alt="Signature Dish 3">
+        </div>
+
+        <p>
+            Fresh ingredients and exceptional care come together to create meals you'll always remember.
+        </p>
+
+    </div>
+
+    <div class="dish">
+
+        <div class="dish-image">
+            <img src="images/food4.jpg" alt="Signature Dish 4">
+        </div>
+
+        <p>
+            Experience comforting flavours prepared with passion and served with genuine hospitality.
+        </p>
+
+    </div>
+
+    <div class="dish">
+
+        <div class="dish-image">
+            <img src="images/food5.jpg" alt="Signature Dish 5">
+        </div>
+
+        <p>
+            Indulge in beautifully presented dishes designed to satisfy every craving and every occasion.
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- ===========================
+     MENU SECTION
+=========================== -->
+
+<section class="menu-section" id="menu">
+
+    <div class="menu-title">
+
+        <span class="menu-title-line"></span>
+
+        <h2>OUR MENU</h2>
+
+        <span class="menu-title-line"></span>
+
+    </div>
+
+
+    <p class="menu-intro">
+        Discover a carefully curated selection of dishes,
+        crafted with fresh ingredients and unforgettable flavors.
+    </p>
+
+
+    <div class="menu-container">
+
+
+        <!-- MENU ITEM 1 -->
+
+        <div class="menu-card">
+
+            <div class="menu-image">
+
+                <img
+                    src="images/menu1.jpg"
+                    alt="Grilled Chicken"
+                >
+
+            </div>
+
+            <div class="menu-info">
+
+                <h3>Grilled Chicken</h3>
+
+                <p>
+                    Tenderly grilled and seasoned to perfection,
+                    served with fresh vegetables.
+                </p>
+
+                <span class="menu-price">₦5,500</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU ITEM 2 -->
+
+        <div class="menu-card">
+
+            <div class="menu-image">
+
+                <img
+                    src="images/menu2.jpg"
+                    alt="Creamy Pasta"
+                >
+
+            </div>
+
+            <div class="menu-info">
+
+                <h3>Creamy Pasta</h3>
+
+                <p>
+                    Rich, creamy pasta prepared with carefully
+                    selected ingredients.
+                </p>
+
+                <span class="menu-price">₦4,800</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU ITEM 3 -->
+
+        <div class="menu-card">
+
+            <div class="menu-image">
+
+                <img
+                    src="images/menu3.jpg"
+                    alt="Jollof Rice with Chicken"
+                >
+
+            </div>
+
+            <div class="menu-info">
+
+                <h3>Jollof Rice</h3>
+
+                <p>
+                    A flavorful classic prepared with premium
+                    spices and served with chicken.
+                </p>
+
+                <span class="menu-price">₦4,500</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU ITEM 4 -->
+
+        <div class="menu-card">
+
+            <div class="menu-image">
+
+                <img
+                    src="images/menu4.jpg"
+                    alt="Grilled Fish"
+                >
+
+            </div>
+
+            <div class="menu-info">
+
+                <h3>Grilled Fish</h3>
+
+                <p>
+                    Fresh fish expertly grilled to deliver
+                    a delicate and unforgettable taste.
+                </p>
+
+                <span class="menu-price">₦6,000</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU ITEM 5 -->
+
+        <div class="menu-card">
+
+            <div class="menu-image">
+
+                <img
+                    src="images/menu5.jpg"
+                    alt="Beef Steak"
+                >
+
+            </div>
+
+            <div class="menu-info">
+
+                <h3>Beef Steak</h3>
+
+                <p>
+                    Juicy, perfectly cooked beef steak made
+                    for a satisfying dining experience.
+                </p>
+
+                <span class="menu-price">₦7,500</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU ITEM 6 -->
+
+        <div class="menu-card">
+
+            <div class="menu-image">
+
+                <img
+                    src="images/menu6.jpg"
+                    alt="Fresh Dessert"
+                >
+
+            </div>
+
+            <div class="menu-info">
+
+                <h3>Fresh Dessert</h3>
+
+                <p>
+                    A refreshing sweet treat crafted to
+                    complete your meal beautifully.
+                </p>
+
+                <span class="menu-price">₦3,500</span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+    
+    <!-- ===========================
+     TESTIMONIALS SECTION
+=========================== -->
+
+<section class="testimonials-section" id="testimonials">
+
+    <!-- TESTIMONIALS TITLE -->
+
+    <div class="testimonials-title">
+
+        <span class="testimonials-title-line"></span>
+
+        <h2>WHAT OUR GUESTS SAY</h2>
+
+        <span class="testimonials-title-line"></span>
+
+    </div>
+
+
+    <!-- TESTIMONIALS INTRO -->
+
+    <p class="testimonials-intro">
+        Good food brings people together, and our guests make
+        every experience memorable.
+    </p>
+
+
+    <!-- TESTIMONIALS CONTAINER -->
+
+    <div class="testimonials-container">
+
+
+        <!-- TESTIMONIAL 1 -->
+
+        <article class="testimonial-card">
+
+            <span class="testimonial-quote">“</span>
+
+            <p class="testimonial-text">
+                The food was beautifully prepared and every bite
+                was delicious. The service made us feel truly welcome.
+            </p>
+
+            <h3 class="testimonial-name">
+                — Amara
+            </h3>
+
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                ★★★★★
+            </div>
+
+        </article>
+
+
+        <!-- TESTIMONIAL 2 -->
+
+        <article class="testimonial-card">
+
+            <span class="testimonial-quote">“</span>
+
+            <p class="testimonial-text">
+                From the presentation to the atmosphere, everything
+                felt thoughtful and elegant. Definitely coming back.
+            </p>
+
+            <h3 class="testimonial-name">
+                — Daniel
+            </h3>
+
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                ★★★★★
+            </div>
+
+        </article>
+
+
+        <!-- TESTIMONIAL 3 -->
+
+        <article class="testimonial-card">
+
+            <span class="testimonial-quote">“</span>
+
+            <p class="testimonial-text">
+                Desired Taste exceeded my expectations. The meal was
+                fresh, flavorful, and worth every bite.
+            </p>
+
+            <h3 class="testimonial-name">
+                — Grace
+            </h3>
+
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                ★★★★★
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+    
+  <!-- ===========================
+     FOOTER
+=========================== -->
+
+<footer class="site-footer" id="contact">
+
+    <!-- FOOTER BRANDING -->
+
+    <div class="footer-brand">
+
+        <h2>DESIRED TASTE</h2>
+
+        <p>
+            Where Every Meal Becomes a Memory.
+        </p>
+
+    </div>
+
+
+    <!-- QUICK LINKS -->
+
+    <div class="footer-links">
+
+        <h3>QUICK LINKS</h3>
+
+        <nav aria-label="Footer Navigation">
+
+            <a href="#home">Home</a>
+
+            <a href="#menu">Menu</a>
+
+            <a href="#testimonials">Testimonials</a>
+
+            <a href="#signature-dishes">
+    Signature Dishes
+</a>
+
+        </nav>
+
+    </div>
+
+
+    <!-- CONTACT INFORMATION -->
+
+    <div class="footer-contact">
+
+        <h3>CONTACT US</h3>
+
+        <p>
+            📍 123 Taste Street, Lagos, Nigeria
+        </p>
+
+        <p>
+            📞 +234 800 600 8020
+        </p>
+
+        <p>
+            ✉ hello@desiredtaste.com
+        </p>
+
+    </div>
+
+<!-- ===========================
+     SOCIAL MEDIA
+=========================== -->
+
+<div class="footer-social">
+
+    <h3>FOLLOW US</h3>
+
+    <div class="social-links">
+
+        <p>
+            Instagram
+            <span>@desiredtaste</span>
+        </p>
+
+        <p>
+            Facebook
+            <span>Desired Taste</span>
+        </p>
+
+        <p>
+            TikTok
+            <span>@desiredtaste</span>
+        </p>
+
+    </div>
+
+</div>
+
+    <!-- FOOTER DIVIDER -->
+
+    <div class="footer-divider"></div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Desired Taste. All Rights Reserved.
+        </p>
+
+        <p>
+            Crafted with care.
+        </p>
+
+    </div>
+
+
+</footer>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+</body>
+
+<!-- JavaScript File -->
+<script src="js/script.js"></script>
+
+</html>
